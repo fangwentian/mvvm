@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="app">
+        <h3 v-text="title"></h3>
+        <input type="text" v-model="title">
+    </div>
+<script type="text/javascript" src="../dist/mvvm.js"></script>
+<script type="text/javascript">
+new Vue({
+    el: '#app',
+    data: {
+        title: "a mvvm sample"
+    }
+})
+
+</script>
+</body>
+</html>
